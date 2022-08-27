@@ -33,6 +33,7 @@ a {
 #homeSection h1{
     font-size: 35px;
     font-weight: 700;
+    color: rgb(180, 12, 45);
 }
 
 #homeSection h3{
@@ -61,14 +62,14 @@ a {
 }
 
 .firstSection img{
-    width: 70%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto
 }
 
 .firstSection button {
     padding: 10px 50px;
-    background-color: rgb(207, 26, 66);
+    background-color: rgb(18, 7, 58);
     box-shadow: 1px 2px 1px 1px rgb(212, 205, 205);
     border: none;
     border-radius: 10px 0 10px 0;
@@ -103,13 +104,11 @@ a {
 
 .secondPageTestimonies img {
     width: 20%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .secondPage button {
     padding: 10px 30px;
-    background-color: rgb(207, 26, 66);
+    background-color: rgb(18, 7, 58);
     border: none;
     border-radius: 10px 0 10px 0;
     box-shadow: 1px 2px 1px 1px rgb(212, 205, 205);
@@ -149,7 +148,7 @@ a {
 
 .finalSection button {
     padding: 10px 50px;
-    background-color: rgb(207, 26, 66);
+    background-color: rgb(18, 7, 58);
     box-shadow: 1px 2px 1px 1px rgb(212, 205, 205);
     border: none;
     border-radius: 10px 0 10px 0;
@@ -197,6 +196,12 @@ a {
     .thirdPageImage {
         gap: 50px;
     }
+
+    .thirdPageImage img{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media screen and (max-width:375px) {
@@ -206,19 +211,31 @@ a {
 
     .secondPage {
         width: 100%;
-        padding: 0 1rem;
+        padding: 0 2rem;
+    }
+
+    .secondPage h1{
+        font-size: 20px;
+    }
+
+    .thirdPage {
+        margin-top: 50px;
+    }
+ 
+    .thirdPageImage img{
+        width: 100%;
     }
 
     .finalSection {
         width: 95% ;
     }
 
-    .finalSection p {
-        font-size: 17px;
+    .finalSection img{
+        width: 70%;
     }
 
-    .thirdPage {
-       margin-top: 50px;
+    .finalSection p {
+        font-size: 17px;
     }
 }
 

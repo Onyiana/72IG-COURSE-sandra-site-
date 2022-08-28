@@ -189,6 +189,10 @@ a {
         width: 100%;
     }
 
+    .secondPageImage{
+        width: 100%;
+    }
+
     .thirdPageImage {
         flex-direction: column;
     }

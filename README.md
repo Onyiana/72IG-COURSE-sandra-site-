@@ -1,2 +1,2 @@
 72IG COURSE
-https://sandras-affiliate.netlify.app
+https://sandra-affiliate-expertnaire.netlify.app
